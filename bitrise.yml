@@ -27,6 +27,10 @@ workflows:
         title: install
         inputs:
         - command: install
+    - yarn@0:
+        title: build rust
+        inputs:
+        - command: run built-rust
     - script@1:
         title: Generate React native
         inputs:
